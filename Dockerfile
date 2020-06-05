@@ -1,6 +1,6 @@
 FROM node:14.4.0-alpine3.11
 
-LABEL name "Fabian Brash"
+LABEL maintainer="Fabian Brash"
 
 WORKDIR /opt/demo1
 COPY package*.json ./
